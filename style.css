@@ -1,0 +1,45 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar{
+    padding-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 700;
+    color: #515151;
+    margin: 0 15px;
+}
+
+
+#start{
+    background-image: url(img/background.png);
+    /* background-attachment: scroll; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF9A3D , #FFC53D);
+    color:#fff;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+  }
+
+.btn-grad:hover{
+
+    background-image: linear-gradient(to right, #fff , #fff);
+    border: 1px solid #FFC53D;
+    color: #FFC53D;
+
+}
+#aboutMe{
+    background-image: linear-gradient(to right, #FAFAFF 70% , #fff 70%);
+}
+
+#skills{
+    background-image: linear-gradient(to right, #fff 30% , #FAFAFF 30%);
+}
