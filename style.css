@@ -1,5 +1,10 @@
 body{
     font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+}
+h2{
+    font-weight: 700;
+    margin-left: 30px;
 }
 
 .navbar{
@@ -15,9 +20,9 @@ body{
 
 #start{
     background-image: url(img/background.png);
-    /* background-attachment: scroll; */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
     height: 600px;
 }
 
@@ -26,7 +31,7 @@ body{
     color:#fff;
     font-weight: 700;
     border-radius: 15px;
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
   }
 
 .btn-grad:hover{
@@ -40,6 +45,56 @@ body{
     background-image: linear-gradient(to right, #FAFAFF 70% , #fff 70%);
 }
 
+.list-group-item{
+    border:none;
+    font-weight: 700;
+    padding: 0;
+    line-height: 2;
+}
+
+.yellow-text{
+    color: #FFC53D;
+    margin-left:5px;
+}
+
+.list-group-item:last-child > .yellow-text{
+    text-decoration: underline;
+}
+
+.yellow-line-dotted{
+    border-left: 4px dotted #FFC53D;
+    /* padding-left: 20px; */
+}
+
 #skills{
     background-image: linear-gradient(to right, #fff 30% , #FAFAFF 30%);
+}
+#portfolio .row > div{
+    height:340px;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+#contact{
+    background-color: #FAFAFF;
+}
+#contact .row h2{
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.contact-left{
+    background-color: #FF9A3D;
+}
+
+.contact-right .form-control{
+    border:none;
+    background-color: #FAFAFF;
+    border-radius: 15px;
+}
+
+.contact-right .form-control:focus{
+    box-shadow: none;
+
 }
