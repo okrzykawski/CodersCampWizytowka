@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Oskar Krzykawski</title>
+        <link href="https://fonts.googleapis.com/css?family=Cairo:400,700,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Oskar Krzykawski</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="start">
+            <div class="welcome container-fluid text-white">
+                <p class="display-1 orange-text">Welcome!</p>
+                <p class="h1 ">My name is Oskar Krzykawski.</p>
+                <p><span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse orange-text"></i>
+                </span>
+                <span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x fa-inverse orange-text"></i>
+                </span>
+                <span class="fa-stack fa-sm">
+                    
+                    <i class="fab fa-github fa-stack-2x fa-inverse "></i>
+                </span>
+                <span class="fa-stack fa-sm">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse orange-text"></i>
+                </span></p>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid bg-white py-5 text-center">
+                <header>
+                    <h3 class="h2">I am happy to help you with any problem!</h3>
+                </header>
+                <section>
+                    <button class="btn btn-grad mt-3 mx-4 px-5 py-2 btn-lg ">Contact me!</button>
+                    <button class="btn btn-grad mt-3 mx-4 px-5 py-2 btn-lg ">Check my CV</button>
+                </section>
+            </div>
+        </section>
+        <section id="aboutMe" class="container-fluid bg-light py-5 mb-5">
+            <div class="container">
+                <header>
+                    <h2><strong>About me</strong></h2>
+                </header>
+                <div class="row bg-white shadow py-5 pr-5">
+                    <div class="col-sm-5 col-md-4 col-lg-2 px-5">
+                        <img src="img/aboutme.png" alt="" class="img-fluid rounded-circle mb-4">
+                    </div>
+                    <div class="col-sm-7 col-lg-4 col-xl-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">Full Name: <span class="yellow-text">Oskar Krzykawski</span></li>
+                            <li class="list-group-item">Age: <span class="yellow-text">23 Years</span></li>
+                            <li class="list-group-item">Profile: <span class="yellow-text">Fullstack</span></li>
+                            <li class="list-group-item">Telephone: <span class="yellow-text">+48 123 456 789</span></li>
+                            <li class="list-group-item">E-mail: <a href="mailto:oskar@okrzykawski.pl"><span class="yellow-text">oskar@okrzykawski.pl</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-xl-7">
+                        <p class="yellow-line-dotted pl-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor deserunt eligendi nostrum, tempore numquam voluptate nobis aliquam alias quas quos nisi totam delectus cupiditate veritatis. At, repellat incidunt assumenda vel iste quia, sunt quidem omnis, deleniti explicabo perferendis neque molestias corrupti minus consequatur dolore voluptatum. Quo iure dolor, officiis eius id praesentium quam, itaque corrupti officia, voluptatibus exercitationem obcaecati! </p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="container-fluid bg-light py-5 mb-5">
+            <div class="container">
+                <header>
+                    <h2>Skills</h2>
+                </header>
+                <div class="row bg-white shadow p-5 text-center">
+                    <div class="col-md-4">
+                        <img src="img/skills1.png" alt="">
+                        <header>
+                            <h3 class="yellow-text h4 mt-5">UX/UI</h3>
+                        </header>
+                        <p class="h4">Figma</p>
+                    </div>
+                    <div class="col-md-4 yellow-line-dotted">
+                        <img src="img/skills2.png" alt="">
+                        <header>
+                            <h3 class="yellow-text h4 mt-5">Front End</h3>
+                        </header>
+                        <p class="h4">Html, CSS, JavaScript</p>
+                    </div>
+                    <div class="col-md-4 yellow-line-dotted">
+                        <img src="img/skills3.png" alt="">
+                        <header>
+                            <h3 class="yellow-text h4 mt-5">Back End</h3>
+                        </header>
+                        <p class="h4">PHP, Node.js</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="container-fluid bg-white py-5 m-0 px-0">
+            <header>
+                <h2 class="text-center">Portfolio</h2>
+            </header>
+            <div class="row no-gutters text-white">
+                <div class="col-md-7 col-xl-5">
+                    <div class="container-fluid w-100 h-100 p-5">
+                        <h3 class="h2">Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vel fuga quisquam ratione porro expedita quasi nostrum quam ut cum.</p>
+                        <button type="submit" class="btn btn-grad px-4">View</button>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xl-2"></div>
+                <div class="col-md-5 col-xl-5"></div>
+                <div class="col-md-7 col-xl-2"></div>
+                <div class="col-xl-10">
+                    <div class="container-fluid w-100 h-100 p-5">
+                         <h3 class="h2">Design project</h3>
+                         <p class="w-50">Ad illo iste, ipsa dolorem placeat recusandae atque consequatur? Nemo voluptas rerum possimus fugit quaerat vel odit, minus, dignissimos, aliquam at praesentium.</p>
+                        <button type="submit" class="btn btn-grad px-4">View</button>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container-fluid  pb-5 pt-3">
+            <div class="container">
+                <header>
+                    <h2>Contact us</h2>
+                </header>
+                <div class="row bg-white shadow m-0 p-0">
+                    <div class="col-lg-5 m-0 p-0">
+                        <div class="container contact-left p-4 h-100 text-white pl-lg-0">
+                            <div class="w-50 ml-sm-5 mt-3">
+                                <i class="material-icons  md-48">mail_outline</i>
+                                <p class="text-white-50">Please describe your question. Send me a message and I will answer you as soon as possible! </p>
+                                <div class="contact-left-bottom ml-lg-5 pl-lg-0 pb-lg-4 w-50">
+                                     <span class="fa-stack fa-sm">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse orange-text"></i>
+                                    </span>
+                                    <span class="fa-stack fa-sm">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin-in fa-stack-1x fa-inverse orange-text"></i>
+                                    </span>
+                                    <span class="fa-stack fa-sm">
+                                        
+                                        <i class="fab fa-github fa-stack-2x fa-inverse "></i>
+                                    </span>
+                                    <span class="fa-stack fa-sm">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse orange-text"></i>
+                                    </span>
+                                    <p class="mt-3"><span style="font-weight: 700;">Oskar Krzykawski</br>Poland, Kraków </span></br>ul. Tęczowa 12/3 30-000</br>+48 123 456 789</br><a href="mailto:oskar@okrzykawski.pl" class="text-white">oskar@okrzykawski.pl</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-7 py-4 px-0">
+                        <header>
+                            <div class="triangle mr-4"></div><h2>Let's start!</h2>
+                        </header>
+                        <form action="#" class="contact-right px-3 px-sm-5">
+                            <div class="form-group"> 
+                                <input type="text" class="form-control p-4" placeholder="Name" name="name">
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control p-4" placeholder="Your e-mail adress" name="email">
+                            </div>
+                            <div class="form-group"> 
+                                <input type="text" class="form-control p-4" placeholder="Topic" name="topic">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control p-4" rows="5"placeholder="Message" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-grad float-right rounded-pill">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="contaier-fluid-bg-white pt-3 text-center">
+                <p>Copyrights &copy; Oskar Krzykawski</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
